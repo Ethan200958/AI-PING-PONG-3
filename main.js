@@ -21,6 +21,8 @@ var ball = {
     dy:3
 }
 
+noseY = 0;
+
 function setup(){
   canvas =  createCanvas(700,600);
   video = createCapture(VIDEO);
